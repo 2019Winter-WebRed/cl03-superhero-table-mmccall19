@@ -1,0 +1,27 @@
+/*
+*Mackenzie
+*March 13 2019
+*HTML Super Heroes
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Boddy attributes here */
+
+body {
+/* This give the site a background color */
+    background-color: ivory; 
+}
+/* this gives a colored border around each cell on the table */
+table, td, th { border: 1px solid red; }
+
+/* this takes away the space in between each cell on the table */
+table { border-collapse: collapse; }
+
+/* this attribute gives the head and foot color */
+thead { background-color: coral; }
+tfoot { background-color: peachpuff; }
